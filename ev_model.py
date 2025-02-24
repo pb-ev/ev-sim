@@ -284,7 +284,7 @@ class PopulationSimulator:
         fig.update_layout(
             xaxis_title="Hour of Day",
             yaxis_title="State of Charge (%)",
-            title="Population-Level EV Charging Patterns",
+            title="Population-Level EV Charging Patterns by Archetype",
             yaxis_range=[0, 100],
             xaxis_range=[-0.5, 23.5],
             xaxis=dict(tickmode="linear", tick0=0, dtick=1),

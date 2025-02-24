@@ -9,7 +9,7 @@ from helper import (
 st.set_page_config(layout="wide")
 
 # Set page title
-st.title("EV Population Charging Patterns")
+st.title("EV Population Charging Patterns by Archetype")
 
 
 # Load archetype data
