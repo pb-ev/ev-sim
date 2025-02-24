@@ -52,10 +52,10 @@ st.plotly_chart(
 st.markdown(
     """
 ### About this visualization
-This plot shows the charging patterns across a population of archetypes of electric vehicles:
-- The solid red line represents the mean state of charge (SoC) across all vehicles
-- The dashed lines show the confidence interval (based on the selected percentile)
-- Use the dropdown menu above the plot to view different archetype patterns
+This plot shows the EV archetypes and their charging patterns:
 - Adjust the population size and percentile range using the sidebar controls
+- The solid red line represents the mean state of charge (SoC) across all vehicles
+- The dashed lines show the confidence intervals
+- Use the dropdown menu above the plot to view different archetype patterns
 """
 )
